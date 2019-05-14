@@ -1,6 +1,6 @@
 
 
-shinyUI(navbarPage(strong(span("Lab 1.3.1", style="color:#0983ed")),
+shinyUI(navbarPage('Likun Zhang',#strong(span("Lab 1.3.1", style="color:#0983ed")),
                    ####--------------1. Wildfire-----------------
                    tabPanel("10s Exercise",{
                      fluidRow(
@@ -40,6 +40,5 @@ shinyUI(navbarPage(strong(span("Lab 1.3.1", style="color:#0983ed")),
                        )
                      )
                    })
-                   
-), header='Likun Zhang Personal Website'
+)
 )
